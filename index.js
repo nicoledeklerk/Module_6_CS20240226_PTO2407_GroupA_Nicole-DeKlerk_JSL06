@@ -63,6 +63,7 @@ function addToOrder(itemName) {
 
 // Function to initialize the menu system
 function initMenuSystem(menu) {
+        displayMenuItems(menu);
     // Call the function to display menu items
 }
 
