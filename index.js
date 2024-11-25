@@ -5,6 +5,15 @@ const menu = {
     Desserts: ["Tiramisu", "Cheesecake"]
 };
 
+const prices = { 
+    "Garlic Bread": 49.99, 
+    "Bruschetta": 35.50, 
+    "Margherita Pizza": 175.99, 
+    "Spaghetti Carbonara": 89.99, 
+    "Tiramisu": 75.50, 
+    "Cheesecake": 39.90 
+};
+
 // Function to display menu items by category
 function displayMenuItems(menu) {
     // Get the menu container element from the HTML
